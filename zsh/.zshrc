@@ -1,0 +1,1 @@
+/Users/mrt/.zshrc
