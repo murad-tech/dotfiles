@@ -21,3 +21,4 @@ vim.opt.showtabline = 2             -- show window tabs ^
 vim.opt.fileencoding = 'utf-8'      -- set file encoding
 vim.opt.undofile = true             -- creates undo history
 
+vim.opt.clipboard = 'unnamedplus'   -- sync OS clipboard with vim
