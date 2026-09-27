@@ -1,9 +1,9 @@
 require 'core.options'
 require 'core.keymaps'
 
--- ================================================== 
+-- ==================================================
 -- Plugin manager vim.pack neovim default
--- ================================================== 
+-- ==================================================
 do
     local function run_build(name, cmd, cwd)
         local result = vim.system(cmd, { cwd = cwd }):wait()
@@ -43,3 +43,12 @@ do
     require('plugins')
 end
 
+-- ==================================================
+-- Colorscheme / Theme
+-- ==================================================
+vim.pack.add({
+  'https://github.com/ellisonleao/gruvbox.nvim'
+})
+
+require('gruvbox').setup()
+vim.cmd.colorscheme('gruvbox')
