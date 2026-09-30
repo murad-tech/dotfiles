@@ -1,6 +1,8 @@
 require 'core.options'
 require 'core.keymaps'
 
+local gh = require('utils').gh
+
 -- ==================================================
 -- Plugin manager vim.pack neovim default
 -- ==================================================
@@ -47,7 +49,7 @@ end
 -- Colorscheme / Theme
 -- ==================================================
 vim.pack.add({
-  'https://github.com/ellisonleao/gruvbox.nvim'
+  gh 'ellisonleao/gruvbox.nvim'
 })
 
 require('gruvbox').setup()

@@ -1,7 +1,9 @@
+local gh = require('utils').gh
+
 vim.pack.add({
-    'https://github.com/akinsho/bufferline.nvim',
+    gh 'akinsho/bufferline.nvim',
     -- dependencies
-    'https://github.com/nvim-tree/nvim-web-devicons'
+    gh 'nvim-tree/nvim-web-devicons'
 })
 
 local function close_buffer()
