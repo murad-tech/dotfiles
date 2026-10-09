@@ -113,6 +113,8 @@ local servers = {
             },
         },
     },
+
+    jdtls = {},
 }
 
 vim.pack.add {
