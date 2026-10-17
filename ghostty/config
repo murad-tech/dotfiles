@@ -18,3 +18,4 @@ cursor-style-blink = false
 # navigation
 keybind = ctrl+k=scroll_page_up
 keybind = ctrl+j=scroll_page_down
+keybind = cmd+o=toggle_background_opacity
