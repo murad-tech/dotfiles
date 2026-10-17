@@ -22,3 +22,6 @@ vim.opt.fileencoding = 'utf-8'      -- set file encoding
 vim.opt.undofile = true             -- creates undo history
 
 vim.opt.clipboard = 'unnamedplus'   -- sync OS clipboard with vim
+
+vim.api.nvim_set_hl(0, "Normal",
+    { bg = "NONE" })                -- make neovim transperrent, whatever terminal background opacity settings applies to neovim as well
